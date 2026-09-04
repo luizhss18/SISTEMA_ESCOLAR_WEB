@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(237, 248, 221);
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(252, 255, 250);
+}
+h2 {
+    margin-left: 50px;
+}
+table {
+    margin-left: 33px;
+    border-color: rgb(65, 65, 65);
+}
+th /*cabeçalho da tabela*/{
+    padding: 5px;
+    background-color: #8bca57;
+}
+td /*corpo da tabela*/{
+    padding: 10px;
+    background-color: #baee8f;
+}
+/*botões: enviar e salvar*/
+input[type="submit"] {
+   background-color: rgb(255, 255, 255);
+   border-radius: 4px;
+   border-color: rgb(88, 88, 88);
+   cursor: pointer;
+}
+/*campo de preenchimento*/
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 3px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.editar {
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgb(255, 237, 197);
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.excluir {
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgb(255, 197, 197);
+    cursor: pointer;
+    margin-right: 5px;
+}

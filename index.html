@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="escola.css">
+</head>
+<body>
+    <h1>Sistema de Gerenciamento Escolar</h1>
+
+    <h2>Entrar no sistema</h2>
+    <form>
+        <label>Colaborador:</label><br>
+        <input type="text" name="usuario" required/><br><br>
+
+        <label>Matrícula:</label><br>
+        <input type="text" name="matricula" required/><br><br>
+
+        <label>Senha:</label><br>
+        <input type="password" name="senha" required/><br><br>
+
+        <input type="submit" value="Entrar"/>
+    </form><br>
+
+    <hr width="2500px">
+
+    <h2>Cadastro de Aluno</h2>
+    <form>
+        <label>Nome do Aluno:</label><br>
+        <input type="text" name="nomeAluno" required/><br><br>
+
+        <label>Matrícula:</label><br>
+        <input type="text" name="matricula" required/><br><br>
+
+        <label>Data de Nascimento:</label><br>
+        <input type="date" name="dataNascimento" required/><br><br>
+
+        <label>Série:</label><br>
+        <input type="text" name="serie" required/><br><br>
+
+        <input type="submit" value="Salvar"/>
+    </form><br>
+
+    <hr width="2500px">
+
+    <h2>Lista de Alunos</h2>
+    <table border="3">
+        <tr>
+            <th>Nome</th>
+            <th>Série</th>
+            <th>Ações</th>
+        </tr>
+        <tr>
+            <td>Ana Paula</td>
+            <td>7º Ano</td>
+            <td><button class="editar">Editar</button> <button class="excluir">Excluir</button></td>
+        </tr>
+        <tr>
+            <td>Maria Silva</td>
+            <td>8º Ano</td>
+            <td><button class="editar">Editar</button> <button class="excluir">Excluir</button></td>
+        </tr>
+        <tr>
+            <td>João Souza</td>
+            <td>9º Ano</td>
+            <td><button class="editar">Editar</button> <button class="excluir">Excluir</button></td>
+        </tr>
+    </table>
+</body>
+</html>
